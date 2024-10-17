@@ -1,0 +1,21 @@
+{
+    "data":
+    [
+        {
+            "message": "Hello, firstName()! Your order number is: #int(1,100)",
+            "phoneNumber": "phoneNumber()",
+            "status": "enum(active, disabled)",
+            "name": {
+              "first": "Emmaline",
+              "middle": "Elizabeth Watson",
+              "last": "Mercer"
+            },
+            "username": "this.name.first-this.name.last",
+            "password": "password()",
+            "emails": [
+              "repeat(2)",
+              "email(gmail.com, example.com)"
+            ]
+        }
+    ]
+}
